@@ -1,0 +1,104 @@
+[0.011s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.213s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.219s] -- Detecting CXX compile features - done
+[0.220s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.406s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.437s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.441s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.447s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.456s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.507s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.510s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.602s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.631s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.684s] -- Looking for pthread.h
+[0.749s] -- Looking for pthread.h - found
+[0.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.816s] -- Found Threads: TRUE  
+[0.877s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.878s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.904s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.920s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.121s] -- Configuring done
+[1.135s] -- Generating done
+[1.141s] -- Build files have been written to: /home/nikhilsai/bumperbot_ws/build/bumperbot_mapping
+[1.153s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_mapping -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping
+[1.155s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_mapping -- -j28 -l28
+[1.202s] [ 50%] [32mBuilding CXX object CMakeFiles/mapping_with_known_poses.dir/src/mapping_with_known_poses.cpp.o[0m
+[1.212s] [ 50%] Built target ament_cmake_python_copy_bumperbot_mapping
+[1.464s] running egg_info
+[1.465s] creating bumperbot_mapping.egg-info
+[1.465s] writing bumperbot_mapping.egg-info/PKG-INFO
+[1.465s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[1.465s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[1.466s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.467s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.468s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[1.495s] [ 50%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[11.239s] [100%] [32m[1mLinking CXX executable mapping_with_known_poses[0m
+[11.717s] [100%] Built target mapping_with_known_poses
+[11.733s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_mapping -- -j28 -l28
+[11.735s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_mapping
+[11.746s] -- Install configuration: ""
+[11.746s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[11.746s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[11.746s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info
+[11.746s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py
+[11.747s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py
+[11.796s] Listing '/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...
+[11.796s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py'...
+[11.796s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py'...
+[11.803s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/include/include
+[11.804s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[11.804s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[11.804s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[11.809s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses" to ""
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[11.810s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[11.811s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[11.812s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[11.812s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[11.812s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[11.812s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[11.812s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[11.813s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[11.814s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[11.814s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[11.814s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[11.814s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[11.818s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_mapping

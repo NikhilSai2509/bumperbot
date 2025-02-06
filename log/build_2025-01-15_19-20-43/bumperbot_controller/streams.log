@@ -1,0 +1,119 @@
+[0.010s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_controller
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.148s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.148s] -- Detecting C compile features
+[0.148s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.222s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.341s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.405s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.446s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.519s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.634s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.678s] -- Looking for pthread.h
+[0.742s] -- Looking for pthread.h - found
+[0.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.806s] -- Found Threads: TRUE  
+[0.854s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.855s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.866s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.881s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.897s] -- Found tf2_ros: 0.25.9 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.115s] -- Configuring done
+[1.127s] -- Generating done
+[1.133s] -- Build files have been written to: /home/nikhilsai/bumperbot_ws/build/bumperbot_controller
+[1.142s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_controller
+[1.144s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_controller -- -j28 -l28
+[1.189s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.189s] [ 33%] [32mBuilding CXX object CMakeFiles/twist_relay.dir/src/twist_relay.cpp.o[0m
+[1.193s] [ 50%] [32mBuilding CXX object CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o[0m
+[1.196s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.421s] running egg_info
+[1.422s] creating bumperbot_controller.egg-info
+[1.422s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.422s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.422s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.422s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.424s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.424s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.453s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[10.514s] [ 66%] [32m[1mLinking CXX executable noisy_controller[0m
+[10.987s] [ 66%] Built target noisy_controller
+[12.849s] [ 83%] [32m[1mLinking CXX executable simple_controller[0m
+[13.359s] [ 83%] Built target simple_controller
+[13.711s] [100%] [32m[1mLinking CXX executable twist_relay[0m
+[14.061s] [100%] Built target twist_relay
+[14.073s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_controller -- -j28 -l28
+[14.074s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_controller
+[14.080s] -- Install configuration: ""
+[14.080s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[14.080s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[14.080s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+[14.081s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[14.110s] Listing '/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[14.110s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[14.110s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py'...
+[14.110s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[14.110s] Compiling '/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py'...
+[14.113s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/include/include
+[14.113s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[14.113s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[14.113s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[14.114s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[14.116s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[14.116s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[14.118s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller" to ""
+[14.118s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[14.120s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay" to ""
+[14.120s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[14.121s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[14.122s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[14.123s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_controller

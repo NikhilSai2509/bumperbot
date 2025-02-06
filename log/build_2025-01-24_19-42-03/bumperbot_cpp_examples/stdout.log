@@ -1,0 +1,77 @@
+[  7%] [32m[1mLinking CXX executable simple_service_client[0m
+[  7%] [32m[1mLinking CXX executable simple_publisher[0m
+[ 10%] [32m[1mLinking CXX executable simple_subscriber[0m
+[ 14%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[ 17%] [32m[1mLinking CXX executable simple_qos_subscriber[0m
+[ 21%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[ 25%] [32m[1mLinking CXX executable simple_parameter[0m
+[ 28%] [32m[1mLinking CXX executable simple_qos_publisher[0m
+[ 32%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[ 35%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[ 39%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[ 42%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[ 46%] [32m[1mLinking CXX executable simple_service_server[0m
+[ 50%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[ 53%] Built target simple_parameter
+[ 57%] Built target simple_action_server
+[ 60%] Built target simple_action_server_node
+[ 67%] Built target simple_service_server
+[ 67%] Built target simple_action_client_node
+[ 71%] Built target simple_qos_publisher
+[ 75%] Built target simple_tf_kinematics
+[ 78%] Built target simple_action_client
+[ 82%] Built target simple_service_client
+[ 85%] Built target simple_publisher
+[ 89%] Built target simple_turtlesim_kinematics
+[ 92%] Built target simple_lifecycle_node
+[ 96%] Built target simple_qos_subscriber
+[100%] Built target simple_subscriber
+-- Install configuration: ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node" to ""
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so" to ""
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so
+-- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so" to ""
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+-- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/rclcpp_components/bumperbot_cpp_examples
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+-- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml

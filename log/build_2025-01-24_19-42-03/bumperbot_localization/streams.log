@@ -1,0 +1,71 @@
+[0.012s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhilsai/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_localization -- -j28 -l28
+[0.057s] [  0%] Built target ament_cmake_python_copy_bumperbot_localization
+[0.069s] [ 16%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[0.071s] [ 33%] [32m[1mLinking CXX executable kalman_filter[0m
+[0.077s] [ 50%] [32m[1mLinking CXX executable imu_republisher[0m
+[0.212s] running egg_info
+[0.212s] writing bumperbot_localization.egg-info/PKG-INFO
+[0.212s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[0.212s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[0.214s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.214s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[0.243s] [ 50%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[0.379s] [ 66%] Built target imu_republisher
+[0.400s] [ 83%] Built target kalman_filter
+[0.432s] [100%] Built target odometry_motion_model
+[0.437s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhilsai/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_localization -- -j28 -l28
+[0.439s] Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhilsai/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_localization
+[0.442s] -- Install configuration: ""
+[0.442s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[0.443s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[0.443s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.443s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[0.443s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/odometry_motion_model.py
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[0.443s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[0.460s] Listing '/home/nikhilsai/bumperbot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[0.462s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/include/include
+[0.462s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[0.462s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[0.462s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[0.463s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[0.464s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_localization/bin/odometry_motion_model" to ""
+[0.464s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[0.467s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[0.467s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[0.468s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[0.468s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[0.469s] -- Set runtime path of "/home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model" to ""
+[0.469s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[0.469s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[0.470s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[0.471s] -- Installing: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[0.471s] -- Up-to-date: /home/nikhilsai/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[0.480s] Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhilsai/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_localization

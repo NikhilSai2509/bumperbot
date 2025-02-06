@@ -1,0 +1,6 @@
+Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_utils
+Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nikhilsai/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/nikhilsai/bumperbot_ws/install/bumperbot_utils
+Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_utils -- -j28 -l28
+Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nikhilsai/bumperbot_ws/build/bumperbot_utils -- -j28 -l28
+Invoking command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_utils
+Invoked command in '/home/nikhilsai/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nikhilsai/bumperbot_ws/build/bumperbot_utils
