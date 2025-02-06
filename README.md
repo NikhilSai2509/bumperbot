@@ -3,3 +3,7 @@
 The main code for the self automous bumperbot equqipped with a LIDAR sensor , using SLAM for localization and Mapping.
 ![Screenshot from 2025-02-06 10-50-07](https://github.com/user-attachments/assets/fce3d038-8a2f-4bf5-9cd7-c72a1eb2d498)
 ![Screenshot from 2025-02-06 10-50-38](https://github.com/user-attachments/assets/571cc880-1efb-47df-a562-4e47c744e0b1)
+
+SLAM in Action .
+Here we have used the key control file to control the robot.
+[Screencast from 02-06-2025 12:08:51 PM.webm](https://github.com/user-attachments/assets/bc95fd27-5e7c-43c6-9b43-1f214aa4922b)
