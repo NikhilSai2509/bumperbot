@@ -8,4 +8,8 @@ The Self automous bumperbot equqipped with a LIDAR sensor , using SLAM for local
 SLAM in Action .
 Here we have used the key control file to control the robot.
 
-[![Watch the video](https://github.com/user-attachments/assets/fce3d038-8a2f-4bf5-9cd7-c72a1eb2d498)](https://github.com/user-attachments/assets/bc95fd27-5e7c-43c6-9b43-1f214aa4922b)
+[![Watch the video](https://github.com/user-attachments/assets/fce3d038-8a2f-4bf5-9cd7-c72a1eb2d498)](https://github.com/user-attachments/assets/79626098-f6c5-4659-bafe-23c47a711f05)
+
+
+
+
